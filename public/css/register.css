@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: #5BC0BE;
+}
+
+.wall a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    background: white;
+    width: 70vw;
+    margin: 3em auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.wall{
+    background: #0B132B;
+    padding: 0 2em;
+}
+
+.message{
+    color: #5BC0BE;
+    font-size: 1.5em;
+}
+
+.form{
+    display: relative;
+    padding: 1em 2em 2em;
+    text-align: center;
+}
+
+.input{
+    width: 85%;
+    border: none;
+    padding: 1em;
+    margin: 1em 1em 1em 0;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(108, 99, 255, 0.5);
+}
+
+.dropdown{
+    width: 90%;
+    margin: 1em 1em 1em 0;
+}
+
+.cta{
+    margin: 1em;
+    background: #6C63FF;
+    width: 84.7%;
+    color: white;
+    border: none;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.cta:hover{
+    cursor: pointer;
+    color: #6C63FF;
+    background: #0B132B;
+}
+
+.form a{
+    color: #6C63FF;
+    display: block;
+    margin: 1em;
+}
+
+/*i{
+    position: absolute;
+    transform: translate(-50px, 25px);
+}*/
+
+i{
+    position: absolute;
+    transform: translate(480px, 25px);
+}
+
+.error{
+    color: red;
+    display: inline-block;
+    font-size: 0.9em;
+}
